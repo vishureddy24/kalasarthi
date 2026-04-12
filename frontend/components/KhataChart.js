@@ -46,11 +46,11 @@ const KhataChart = memo(function KhataChart({ data, totalIncome = 0, totalExpens
           <div className="flex gap-4 text-sm">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded bg-green-500" />
-              <span className="text-green-600 font-medium">Income: ₹{totalIncome.toLocaleString('en-IN')}</span>
+              <span className="text-green-600 font-medium">Income : ₹{totalIncome.toLocaleString('en-IN')}</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded bg-red-500" />
-              <span className="text-red-600 font-medium">Expense: ₹{totalExpense.toLocaleString('en-IN')}</span>
+              <span className="text-red-600 font-medium">Expense : ₹{totalExpense.toLocaleString('en-IN')}</span>
             </div>
           </div>
         </div>
