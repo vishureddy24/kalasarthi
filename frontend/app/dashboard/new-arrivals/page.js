@@ -101,7 +101,7 @@ export default function NewArrivalsPage() {
           </div>
           <div>
             <h2 className="text-2xl font-bold font-display text-foreground">New Arrivals</h2>
-            <p className="text-sm text-muted-foreground">Fresh handcrafted items added in the last 48 hours</p>
+            <p className="text-sm text-muted-foreground">Fresh handcrafted items added in the last  48 hours</p>
           </div>
         </div>
         <Badge variant="outline" className="bg-secondary/50 text-primary">
