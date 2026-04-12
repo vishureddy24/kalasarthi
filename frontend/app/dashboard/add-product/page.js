@@ -193,7 +193,7 @@ export default function AddProductPage() {
               <Link href="/dashboard/products" className="flex-1">
                 <Button type="button" variant="outline" className="w-full h-11">Cancel</Button>
               </Link>
-              <Button type="submit" disabled={submitting} className="flex-1 h-11 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white">
+              <Button type="submit " disabled={submitting} className="flex-1 h-11 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white">
                 {submitting ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : <Package className="h-4 w-4 mr-2" />}
                 {submitting ? 'Creating...' : 'Create Product'}
               </Button>
