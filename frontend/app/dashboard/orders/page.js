@@ -151,7 +151,7 @@ export default function OrdersPage() {
             </div>
             <h3 className="text-lg font-semibold text-foreground">No orders yet</h3>
             <p className="text-muted-foreground text-sm mt-2 max-w-sm mx-auto">
-              Start exploring our handcrafted collection and your orders will appear here.
+              Start exploring our handcrafted collection and your orders will appear here .
             </p>
             <Button 
               className="mt-6 bg-primary hover:bg-primary/90"
